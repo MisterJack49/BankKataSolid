@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>BankKata.Solid.Interfaces</RootNamespace>
+    <AssemblyName>BankKata.Solid.Interfaces</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BankKata.Solid.DI\BankKata.Solid.DI.csproj" />
+  </ItemGroup>
+
+</Project>

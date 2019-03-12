@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankKata.Solid", "BankKata.Solid\BankKata.Solid.csproj", "{E9C7BC23-8537-46F0-8B7B-32EA25763DAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BanKata.Solid.Tests", "BankKata.Solid.Test\BanKata.Solid.Tests.csproj", "{805946E6-0D5B-4964-9DC4-3B507FCD8B90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankKata.Solid.Interfaces", "BankKata.Solid.Interfaces\BankKata.Solid.Interfaces.csproj", "{0DAFA65C-AC4D-4E9F-A52D-6FF36CC3F6A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankKata.Solid.DI", "BankKata.Solid.DI\BankKata.Solid.DI.csproj", "{DFE07379-B2A1-47D9-8A18-46696385CFD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankKata.Solid.Model", "BankKata.Solid.Model\BankKata.Solid.Model.csproj", "{8A2DE244-6FD3-478C-9515-EAA6D0F512A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankKata.Solid.Services", "BankKata.Solid.Services\BankKata.Solid.Services.csproj", "{0D7D05AD-626B-4A90-BEA9-581F78F47F22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9C7BC23-8537-46F0-8B7B-32EA25763DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C7BC23-8537-46F0-8B7B-32EA25763DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C7BC23-8537-46F0-8B7B-32EA25763DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C7BC23-8537-46F0-8B7B-32EA25763DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{805946E6-0D5B-4964-9DC4-3B507FCD8B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805946E6-0D5B-4964-9DC4-3B507FCD8B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805946E6-0D5B-4964-9DC4-3B507FCD8B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805946E6-0D5B-4964-9DC4-3B507FCD8B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DAFA65C-AC4D-4E9F-A52D-6FF36CC3F6A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DAFA65C-AC4D-4E9F-A52D-6FF36CC3F6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DAFA65C-AC4D-4E9F-A52D-6FF36CC3F6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DAFA65C-AC4D-4E9F-A52D-6FF36CC3F6A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE07379-B2A1-47D9-8A18-46696385CFD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE07379-B2A1-47D9-8A18-46696385CFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE07379-B2A1-47D9-8A18-46696385CFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE07379-B2A1-47D9-8A18-46696385CFD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2DE244-6FD3-478C-9515-EAA6D0F512A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2DE244-6FD3-478C-9515-EAA6D0F512A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2DE244-6FD3-478C-9515-EAA6D0F512A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2DE244-6FD3-478C-9515-EAA6D0F512A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7D05AD-626B-4A90-BEA9-581F78F47F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7D05AD-626B-4A90-BEA9-581F78F47F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7D05AD-626B-4A90-BEA9-581F78F47F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7D05AD-626B-4A90-BEA9-581F78F47F22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C7E3FFB-2E69-41FD-AE44-17F76ED65392}
+	EndGlobalSection
+EndGlobal

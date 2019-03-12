@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>BankKata.Solid</RootNamespace>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="LanguageExt.Core" Version="3.1.15" />
+    <PackageReference Include="Ninject" Version="3.3.4" />
+    <PackageReference Include="Ninject.Extensions.Conventions" Version="3.3.0" />
+    <PackageReference Include="Ninject.Extensions.Factory" Version="3.3.2" />
+    <PackageReference Include="Ninject.Extensions.Interception" Version="3.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BankKata.Solid.Interfaces\BankKata.Solid.Interfaces.csproj" />
+    <ProjectReference Include="..\BankKata.Solid.DI\BankKata.Solid.DI.csproj" />
+    <ProjectReference Include="..\BankKata.Solid.Model\BankKata.Solid.Model.csproj" />
+    <ProjectReference Include="..\BankKata.Solid.Services\BankKata.Solid.Services.csproj" />
+  </ItemGroup>
+
+</Project>
